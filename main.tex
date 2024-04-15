@@ -1,0 +1,25 @@
+\documentclass{article}
+
+% import the package
+\usepackage{ship-marks}
+
+\title{TEST DOCUMENT}
+\author{Moritz Tomann}
+\date{\today}
+
+\begin{document}
+\maketitle
+\raggedright
+
+\section{Cardinal marks}
+\begin{tabular}{| l  l  l |}
+    \multicolumn{3}{c}{\textbf{Cardinal marks}}\\
+    \hline
+    North & \cardinalmarkA[north] & \cardinalmarkB[north]\\
+    East & \cardinalmarkA[east] & \cardinalmarkB[east]\\
+    South & \cardinalmarkA[south] & \cardinalmarkB[south]\\
+    West & \cardinalmarkA[west] & \cardinalmarkB[west]\\
+    \hline
+\end{tabular}
+
+\end{document}

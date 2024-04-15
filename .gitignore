@@ -1,0 +1,11 @@
+# ignore everything
+*
+
+# exclude .gitignore
+!*.gitignore
+
+# exclude .sty - package file
+!*.sty
+
+# exclude test .tex file
+!*.tex
